@@ -14,3 +14,38 @@ li {
 a, a.disabled, a .disabled {
     color: purple;
 }
+
+.active {
+    color: yellow;
+}
+
+.im-red {
+    color: red;
+}
+
+.background-red {
+    background-color: red;
+}
+
+.im-blue {
+    color: blue;
+}
+
+.background-blue {
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border: 1px solid green;
+    border-radius: 10%;
+
+}
+
+.promo {
+    font-weight: 900;
+    color: gold;
+}
+
+input[type="text"] {
+    height: 25px;
+}
