@@ -4,4 +4,13 @@ header {
 
 li {
     display: inline;
+    text-decoration: none;
+}
+
+.disabled {
+    color: gray;
+}
+
+a, a.disabled, a .disabled {
+    color: purple;
 }
